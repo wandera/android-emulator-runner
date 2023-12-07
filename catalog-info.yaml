@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: android-emulator-runner
+  description: This is the repo for the Wandera Android Jamf Trust team. It is used in GH Actions as an Android emulator runner for PR checks and other tests.
+  annotations:
+    jira/project-key: JTAND
+    backstage.io/source-location: url:https://github.com/wandera/android-emulator-runner
+  tags:
+    - typescript
+    - kotlin
+    - javascript
+    - android
+spec:
+  type: library
+  lifecycle: experimental
+  owner: android
+  system: Protect
+  
